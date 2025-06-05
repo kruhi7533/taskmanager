@@ -1,0 +1,28 @@
+.priority-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.priority-badge .fas {
+  font-size: 0.875rem;
+}
+
+.priority-badge.high {
+  background-color: rgb(255, 134, 55);
+  color: white;
+}
+
+.priority-badge.medium {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.priority-badge.low {
+  background-color: #6c757d;
+  color: white;
+}
