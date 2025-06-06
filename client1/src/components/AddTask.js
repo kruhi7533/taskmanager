@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate, useParams } from 'react-router-dom';
 import { addTask, updateTask, fetchTask } from '../store/taskSlice';
 import { FaArrowLeft } from 'react-icons/fa';
+const BASE_URL = import.meta.env.VITE_API_URL;
 
 function AddTask() {
   const dispatch = useDispatch();
