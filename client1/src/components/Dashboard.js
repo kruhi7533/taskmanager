@@ -9,6 +9,8 @@ import './Dashboard.css';
 import './TaskCard.css';
 import './PriorityBadge.css';
 import { FaSearch, FaFilter, FaTimes, FaCheck, FaTrash, FaEdit } from 'react-icons/fa';
+const BASE_URL = import.meta.env.VITE_API_URL;
+
 
 function Dashboard() {
   const dispatch = useDispatch();
